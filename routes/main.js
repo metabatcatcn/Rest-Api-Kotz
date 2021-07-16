@@ -15,5 +15,7 @@ router.get('/about', (req, res) => {
 router.get('/docs/downloader', (req, res) => {
     res.sendFile(__path + '/views/downloader.html')
 })
+router.get('/docs/random', (req, res) => {
+    res.sendFile(__path + '/views/random.html')
 
 module.exports = router
